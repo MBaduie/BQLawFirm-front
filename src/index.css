@@ -78,6 +78,9 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .dark {
@@ -123,4 +126,24 @@
     @apply bg-background text-foreground;
     @apply bg-background text-foreground;
   }
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+.linear {
+  background-image: linear-gradient(
+    to bottom,
+    #9150c3,
+    #8a49bc,
+    #8242b4,
+    #7b3aad,
+    #7433a6,
+    #6c2ea0,
+    #63289a,
+    #5b2394,
+    #501f8e,
+    #441a87,
+    #391681,
+    #2c127a
+  );
 }
