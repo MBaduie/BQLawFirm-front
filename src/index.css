@@ -123,27 +123,32 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
-    @apply bg-background text-foreground;
+    @apply bg-neutral-900 text-white/90 font-sans;
   }
 }
-body {
-  font-family: "Cairo", sans-serif;
-}
-.linear {
-  background-image: linear-gradient(
-    to bottom,
-    #9150c3,
-    #8a49bc,
-    #8242b4,
-    #7b3aad,
-    #7433a6,
-    #6c2ea0,
-    #63289a,
-    #5b2394,
-    #501f8e,
-    #441a87,
-    #391681,
-    #2c127a
-  );
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  .linear {
+    background-image: linear-gradient(
+      to bottom,
+      #9150c3,
+      #8a49bc,
+      #8242b4,
+      #7b3aad,
+      #7433a6,
+      #6c2ea0,
+      #63289a,
+      #5b2394,
+      #501f8e,
+      #441a87,
+      #391681,
+      #2c127a
+    );
+  }
 }

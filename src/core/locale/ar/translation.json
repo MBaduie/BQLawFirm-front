@@ -1,0 +1,18 @@
+{
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول إلى حسابك",
+      "description": "أدخل بريدك الإلكتروني أدناه لتسجيل الدخول إلى حسابك",
+      "signUp": "إنشاء حساب",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "m@example.com"
+    },
+    "register": {
+      "title": "إنشاء حساب جديد",
+      "description": "أدخل بريدك الإلكتروني أدناه لإنشاء حساب جديد",
+      "signIn": "تسجيل الدخول",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "m@example.com"
+    }
+  }
+}
