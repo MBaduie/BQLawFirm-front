@@ -1,11 +1,8 @@
-import { Outlet } from "react-router";
+import Login from "../../pages/auth/login/Login";
 const AuthLayout = () => {
   return (
-    <div className="flex justify-between">
-      <div>img</div>
-      <div>
-        <Outlet />
-      </div>
+    <div className=" container flex justify-between">
+      <Login />
     </div>
   );
 };
